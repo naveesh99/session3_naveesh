@@ -10,7 +10,11 @@ rate=float(input())
 func2(m,rate)'''
 
 
-
+def func3(a,b,c):
+    d=(b*8)-(b*8*c)
+    r=a//d
+    print(r)
+func3(20000,89,0.2002)
 
 
 
